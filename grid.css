@@ -1,0 +1,79 @@
+#first.container-fluid {
+    background-image: url("https://www.aviator.com.cy/wp-content/uploads/2020/07/DSC9993.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+      /* Full height */
+    height: 100%;
+    width: 100%; 
+
+    position: relative;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Set the border color to the desired color */
+.custom-toggler.navbar-toggler {
+	border-color: #F9CA03;
+}
+
+/* Change the color in the stroke property of the image data */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 202, 3, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#twenty {
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    color:white ;
+}
+
+.quote{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid #F9CA03;
+  }
+
+.content{
+    margin-bottom: 50px;
+}
+
+
+.nav-item:active{
+    color: white;
+}
+
+.nav-link{
+    color: #F9CA03;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.dropdown-item{
+    color: #F9CA03;
+}
+.dropdown-item:hover{
+    background-color:rgba(249, 202, 3, 0.25);
+    color: #F9CA03;
+}
+
+.dropdown-menu{
+    background: rgba(255, 255, 255, 0.25);
+}
+
