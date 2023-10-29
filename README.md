@@ -2,4 +2,4 @@
 
 Sample website of an Aproved Training Organization
 
-Languages used: HTML, CSS, JS.
+Languages used: HTML, CSS.
